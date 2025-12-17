@@ -580,7 +580,7 @@ function toggleFavorite() {
     updateFavoriteButtonState();
     
     // Update favorites list if visible
-    if (document.querySelector // Update favorites list if visible
+    if (document.querySelector) // Update favorites list if visible
     if (document.querySelector('.favorites-panel.open')) {
         displayFavorites();
     }
